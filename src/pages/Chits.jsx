@@ -152,10 +152,10 @@ const Chits = () => {
                 </li>
               </ul>
               <p className="mt-4 text-violet-700 italic">
-                Our journey towards your growth through a new endeavor.
+                "Our journey towards your growth through a new endeavor.
               </p>
               <p className="text-violet-700 italic">
-                Join us with trust and bond with currency.
+                Join us with trust and bond with currency."
               </p>
             </motion.section>
 

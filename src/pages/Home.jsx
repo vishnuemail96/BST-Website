@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 // Image URLs for slideshow
 const imageUrls = [
@@ -130,9 +130,6 @@ const Home = () => {
               className="flex flex-col p-8 bg-white rounded-2xl shadow-lg border-2 border-transparent hover:border-violet-600 transition-colors duration-300 transform hover:translate-y-[-10px] hover:scale-105 relative"
               variants={cardVariants}
             >
-              {/* Gradient Background */}
-              <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-violet-100 to-white opacity-80 rounded-2xl pointer-events-none"></div>
-
               {/* Card Content */}
               <div className="relative z-10">
                 <h3 className="text-2xl md:text-3xl font-semibold text-violet-700 mb-4">
