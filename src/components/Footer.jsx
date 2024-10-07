@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright Section */}
-      <div className="text-white mt-8 text-center bg-black">
+      <div className="text-white mt-8 text-center ">
         <p>
           &copy; 2024  All Rights Reserved. Bala Sri Thandayuthapani Chits
         </p>
