@@ -8,12 +8,12 @@ const Footer = () => {
           <h3 className="text-white font-semibold mb-4">Office Address</h3>
           <p>Bala Sri Thandayuthapani Chit Funds (P) Ltd Co.</p>
           <p>Mahatma Gandhi Nagar,</p>
-          <p>TNSTC Back Side,</p>
+          <p>TNSTC Back Side, Thuvarankuruchi.</p>
           <p>District: TIRUCHIRAPPALLI,</p>
           <p>State: TAMIL NADU,</p>
           <p>Pin Code: 621314</p>
-          <p>Phone: +91 9751060740</p>
-          <p>Email: info@example.com</p>
+          <p>Phone: +91 97510 60940</p>
+          <p>Email: balasrithandayuthapanichit@gmail.com</p>
         </div>
 
         {/* Google Map Section */}
@@ -79,9 +79,9 @@ const Footer = () => {
       </div>
 
       {/* Copyright Section */}
-      <div className="text-white mt-8 text-center">
+      <div className="text-white mt-8 text-center bg-black">
         <p>
-          &copy; 2024 Bala Sri Thandayuthapani Chit Funds (P) Ltd Co. All Rights Reserved.
+          &copy; 2024  All Rights Reserved. Bala Sri Thandayuthapani Chits
         </p>
       </div>
     </footer>

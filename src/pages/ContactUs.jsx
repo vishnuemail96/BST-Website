@@ -34,18 +34,16 @@ const ContactUs = () => {
             Contact Details
           </h3>
           <p className="text-gray-700 text-lg">
-            Email: balasrithandayu@gmail.com
+            Email: balasrithandayuthapanichit@gmail.com
           </p>
-          <p className="text-gray-700 text-lg">Phone: +91 9751060740</p>
+          <p className="text-gray-700 text-lg">Phone: +91 9751060940</p>
           <p className="text-gray-700 text-lg">
             Address:
             <p>Mahatma Gandhi Nagar,</p>
-            <p>TNSTC Back Side,</p>
+            <p>TNSTC Back Side,Thuvarankuruchi</p>
             <p>District: TIRUCHIRAPPALLI,</p>
             <p>State: TAMIL NADU,</p>
             <p>Pin Code: 621314</p>
-            <p>Phone: +91 9751060740</p>
-            <p>Email: info@example.com</p>
           </p>
         </motion.div>
 
@@ -55,12 +53,13 @@ const ContactUs = () => {
             Contact Us Form
           </h3>
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeyr35BpG4YMisSqvhzAakRH8YlSDH_Wo3k9r7swMET4h1cZA/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeV1D5nTsrFeVfLXwyKr_GVwJ7zDBjs9LjB99JxD2ldLQxUlg/viewform?embedded=true"
             width="100%"
             height="500"
             frameBorder="0"
             marginHeight="0"
             marginWidth="0"
+            className="rounded-md border border-gray-300"
           >
             Loading…
           </iframe>
@@ -72,7 +71,7 @@ const ContactUs = () => {
             Career Application Form
           </h3>
           <iframe
-            src="https://docs.google.com/forms/d/e/YOUR_CAREER_FORM_ID/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdpbC-dz1PEqqvNcBxvQ826YAyug3M0IFrROrrn_rA7JIUArQ/viewform?embedded=true"
             width="100%"
             height="500"
             frameBorder="0"

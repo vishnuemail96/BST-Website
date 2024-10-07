@@ -34,6 +34,13 @@ const Navbar = () => {
           </p>
         </div>
 
+        {/* Center Notice Panel */}
+        <div className="w-auto overflow-hidden">
+          <p className="whitespace-nowrap animate-marquee font-medium text-sm text-white w-[40%]">
+            " உங்கள் இலக்கை அடைய, வாழ்க்கையில் வெற்றி பெற இன்றே உங்கள் BST உடன் இணைந்திடுங்கள் "
+          </p>
+        </div>
+
         {/* Right Side: Social Media Links */}
         <div className="flex items-center space-x-4">
           <p className="hidden md:block text-sm font-bold text-white">
@@ -77,7 +84,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="mailto:balasrithandayuthapani2021@gmail.com"
+            href="mailto:balasrithandayuthapanichit@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-800 hover:scale-110 transition transform duration-300 ease-in-out"
@@ -152,17 +159,19 @@ const Navbar = () => {
                   alt="Call Us"
                   className="inline-block w-6 h-6 mr-2"
                 />
-                <span className="font-bold">Call Us:</span> +91 9751060740
+                <span className="font-bold">Call Us:</span>+91 97510 60940
               </p>
-              <p>
-                <img
-                  src="Cardgmail.png"
-                  alt="Mail Us"
-                  className="inline-block w-6 h-6 mr-2"
-                />
-                <span className="font-bold">Mail Us:</span>{" "}
-                info@balasrithandayuthapanichits.com
-              </p>
+              <a href="mailto:balasrithandayuthapanichit@gmail.com">
+                <p>
+                  <img
+                    src="Cardgmail.png"
+                    alt="Mail Us"
+                    className="inline-block w-6 h-6 mr-2"
+                  />
+                  <span className="font-bold">Mail Us:</span>{" "}
+                  balasrithandayuthapanichit@gmail.com
+                </p>
+              </a>
               <p>
                 <img
                   src="Cardoffice.png"

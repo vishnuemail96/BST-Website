@@ -86,7 +86,7 @@ const Chits = () => {
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-lg">
                   <h3 className="text-2xl font-semibold text-violet-700 mb-4">
-                    Step 5: Verification and Collection:{" "}
+                    Step 5: Verification and Collection{" "}
                   </h3>
                   <p className="text-gray-600">
                     Employees verify the payments before releasing the amount to
@@ -206,6 +206,58 @@ const Chits = () => {
                     mandatory.
                   </li>
                 </ul>
+              </ul>
+            </motion.section>
+               {/* Terms and Conditions */}
+            <motion.section
+              initial="hidden"
+              animate="visible"
+              exit="hidden"
+              variants={sectionVariants}
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-violet-800 mb-6 mt-6">
+                Terms and Conditions
+              </h2>
+              <ul className="list-disc list-inside ml-6 text-gray-700 text-lg">
+                <li>
+                  <strong>Payment Deadline:</strong> Pay within the specified
+                  time on the specified date.
+                </li>
+                <li>
+                  <strong>Group Membership:</strong> Only those who pay will be
+                  added to groups.
+                </li>
+                <li>
+                  <strong>Guarantor Rule:</strong> A guarantor is needed if only
+                  3 people qualify for a ticket.
+                </li>
+                <li>
+                  <strong>Required Documents:</strong> Provide Aadhaar, Bank
+                  Card, Voter ID, Photo, Check Leap Guarantee, and Placement
+                  Slip or proper document. Government staff witness may be
+                  required to sign.
+                </li>
+                <li>
+                  <strong>Group Membership Duration:</strong> New members stay
+                  in groups for at least 5 months.
+                </li>
+                <li>
+                  <strong>Fixed Payment Mode:</strong> Payments are made in a
+                  fixed mode.
+                </li>
+                <li>
+                  <strong>Bettor Rule:</strong> If a bettor stands in, payment
+                  is made at the end of the slip with a 2.5%-5% charge.
+                </li>
+                <li>
+                  <strong>Chit Options:</strong> Offers include 10-month and
+                  20-month chits. Money can be collected daily, weekly, or
+                  monthly.
+                </li>
+                <li>
+                  <strong>Final Decision:</strong> Management's decision is
+                  final.
+                </li>
               </ul>
             </motion.section>
           </>

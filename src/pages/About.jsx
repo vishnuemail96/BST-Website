@@ -66,8 +66,8 @@ const About = () => {
             exit="hidden"
             variants={sectionVariants}
           >
-            <div className="max-w-5xl mx-auto mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-violet-800 mb-10">
+            <div className="max-w-5xl mx-auto mb-6 p-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-violet-800 mb-6">
                 Director and Founder Profiles
               </h2>
               <div className="flex flex-col md:flex-row items-center justify-between mb-8">
@@ -112,7 +112,7 @@ const About = () => {
             exit="hidden"
             variants={sectionVariants}
           >
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl mx-auto p-4">
               <h2 className="text-3xl md:text-4xl font-bold text-violet-800 mb-8 py-8">
                 BST Group
               </h2>

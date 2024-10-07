@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 // Image URLs for slideshow
 const imageUrls = [
-  "Slidshowimg1_LE_auto_x4.jpg",
+  "Slidshowimg1.png",
   "Slidshowimg2.png",
   "Slidshowimg3.png",
 ];
@@ -201,8 +201,10 @@ const Home = () => {
             </div>
             <div className="md:ml-8 mt-4 md:mt-0">
               <p className="text-xl font-semibold text-violet-700">Mani Kumaran</p>
+              <p className="text-sm font-semibold text-violet-700"> Founder of Photo Studio Business</p>
+              <p> ⭐⭐⭐⭐⭐</p>
               <p className="text-gray-600 mt-2">
-              BST Chit Funds has helped me save and grow my money effortlessly. Highly recommend their services!😎
+              BST Chit Funds has helped me save and grow my money effortlessly. Highly recommend their services!
               </p>
             </div>
           </div>
@@ -218,8 +220,10 @@ const Home = () => {
             </div>
             <div className="md:ml-8 mt-4 md:mt-0">
               <p className="text-xl font-semibold text-violet-700">Sathya</p>
+              <p className="text-sm font-semibold text-violet-700"> Founder of Tailor and Lia Flex Business</p>
+              <p> ⭐⭐⭐⭐⭐</p>
               <p className="text-gray-600 mt-2">
-              Trustworthy and reliable! I have been with BST Chit Funds for years, and my financial future feels secure.😍
+              Trustworthy and reliable! I have been with BST Chit Funds for years, and my financial future feels secure.
               </p>
             </div>
           </div>
@@ -235,8 +239,10 @@ const Home = () => {
             </div>
             <div className="md:ml-8 mt-4 md:mt-0">
               <p className="text-xl font-semibold text-violet-700">Sivamani</p>
+              <p className="text-sm font-semibold text-violet-700"> Founder of Gold Business</p>
+              <p> ⭐⭐⭐⭐⭐</p>
               <p className="text-gray-600 mt-2">
-              Great returns and excellent customer service! BST Chit Funds truly cares about our family financial well-being.🤩
+              Great returns and excellent customer service! BST Chit Funds truly cares about our family financial well-being.
               </p>
             </div>
           </div>
