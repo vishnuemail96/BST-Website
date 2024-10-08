@@ -22,6 +22,7 @@ const Footer = () => {
           <iframe
             className="w-full h-40 rounded-lg"
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1962.3692604562311!2d78.38565253852731!3d10.362779997440498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDIxJzQ2LjAiTiA3OMKwMjMnMTMuMCJF!5e0!3m2!1sen!2sin!4v1727001194905!5m2!1sen!2sin"
+            title="Google Maps location of Bala Sri Thandayuthapani Chit Funds Thuvarankuruchi"
             allowFullScreen=""
             loading="lazy"
           ></iframe>
