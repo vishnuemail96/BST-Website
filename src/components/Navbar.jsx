@@ -163,7 +163,7 @@ const Navbar = () => {
         >
           {/* Navbar Links */}
           <div className=" flex flex-col md:flex-row items-center justify-center space-y-1 md:space-y-0 md:space-x-1">
-            {["HOME", "ABOUT", "CHITS", "CHIT GROUP", "CONTACT US"].map(
+            {["Home", "About", "Chits", "Chit group", "Contact Us"].map(
               (item, index) => (
                 <Link
                   key={index}
