@@ -55,22 +55,22 @@ const Footer = () => {
           <h3 className="text-white font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="/about" className="hover:text-violet-400 transition-colors">
+              <a href="src\pages\About.jsx" className="hover:text-violet-400 transition-colors">
                 About
               </a>
             </li>
             <li>
-              <a href="/chits" className="hover:text-violet-400 transition-colors">
+              <a href="src\pages\Chits.jsx" className="hover:text-violet-400 transition-colors">
                 Chits
               </a>
             </li>
             <li>
-              <a href="/chitgroup" className="hover:text-violet-400 transition-colors">
+              <a href="src\pages\Chitgroup.jsx" className="hover:text-violet-400 transition-colors">
                 Chit Group
               </a>
             </li>
             <li>
-              <a href="/contactUs" className="hover:text-violet-400 transition-colors">
+              <a href="src\pages\ContactUs.jsx" className="hover:text-violet-400 transition-colors">
                 Contact Us
               </a>
             </li>
