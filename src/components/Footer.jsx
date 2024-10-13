@@ -2,7 +2,6 @@ const Footer = () => {
   return (
     <footer className="footer bg-violet-900 text-gray-300 p-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        
         {/* Office Address Section */}
         <div>
           <h3 className="text-white font-semibold mb-4">Office Address</h3>
@@ -12,8 +11,6 @@ const Footer = () => {
           <p>District: TIRUCHIRAPPALLI,</p>
           <p>State: TAMIL NADU,</p>
           <p>Pin Code: 621314</p>
-          <p>Phone: +91 97510 60940</p>
-          <p>Email: balasrithandayuthapanichit@gmail.com</p>
         </div>
 
         {/* Google Map Section */}
@@ -52,38 +49,64 @@ const Footer = () => {
 
         {/* Quick Links Section */}
         <div>
-          <h3 className="text-white font-semibold mb-4">Quick Links</h3>
-          <ul className="space-y-2">
-            <li>
-              <a href="src\pages\About.jsx" className="hover:text-violet-400 transition-colors">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="src\pages\Chits.jsx" className="hover:text-violet-400 transition-colors">
-                Chits
-              </a>
-            </li>
-            <li>
-              <a href="src\pages\Chitgroup.jsx" className="hover:text-violet-400 transition-colors">
-                Chit Group
-              </a>
-            </li>
-            <li>
-              <a href="src\pages\ContactUs.jsx" className="hover:text-violet-400 transition-colors">
-                Contact Us
-              </a>
-            </li>
-          </ul>
-        </div>
+          <h3 className="text-white font-semibold mb-4">Follow Us</h3>
+          <div className="flex items-center space-x-4">
+            <a
+              href="mailto:balasrithandayuthapanichit@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition transform duration-300 ease-in-out"
+              aria-label="Gmail"
+            >
+              <img src="gmail.png" alt="Gmail" className="w-7 h-7" />
+            </a>
 
+            <a
+              href="https://www.linkedin.com/in/bala-sri-thandayuthapani-b585b7280/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition transform duration-300 ease-in-out"
+              aria-label="LinkedIn"
+            >
+              <img src="linkedin.png" alt="LinkedIn" className="w-7 h-7" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/balasrithandayuthapani/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition transform duration-300 ease-in-out"
+              aria-label="Instagram"
+            >
+              <img src="instagram.png" alt="Instagram" className="w-7 h-7" />
+            </a>
+
+            <a
+              href="https://www.facebook.com/people/Bala-Sri-Thandayuthapani/pfbid02ZZZTwGcBAk2KnomzPdC7Eo6Wh1fuuHG8puLSB4XhxJ9nrVqhQsLSS2Ze72LHTUqZl/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition transform duration-300 ease-in-out"
+              aria-label="Facebook"
+            >
+              <img src="facebook.png" alt="Facebook" className="w-7 h-7" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@balasrithandayuthapani"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition transform duration-300 ease-in-out"
+              aria-label="YouTube"
+            >
+              <img src="youtube.png" alt="YouTube" className="w-7 h-7" />
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* Copyright Section */}
-      <div className="text-white mt-8 text-center ">
-        <p>
-          &copy; 2024  All Rights Reserved. Bala Sri Thandayuthapani Chits
-        </p>
+      <div className="text-white mt-8 text-center">
+        <p>&copy; 2024 All Rights Reserved. Bala Sri Thandayuthapani Chits</p>
       </div>
     </footer>
   );
