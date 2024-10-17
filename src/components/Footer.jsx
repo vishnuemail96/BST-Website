@@ -5,6 +5,7 @@ const Footer = () => {
         {/* Office Address Section */}
         <div>
           <h3 className="text-white font-semibold mb-4">Office Address</h3>
+          <p>Office Phone: 6381378187</p>
           <p>Bala Sri Thandayuthapani Chit Funds (P) Ltd Co.</p>
           <p>Mahatma Gandhi Nagar,</p>
           <p>TNSTC Back Side, Thuvarankuruchi.</p>

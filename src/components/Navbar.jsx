@@ -62,7 +62,7 @@ const Navbar = () => {
               repeatType: "loop",
             }}
           >
-            "இன்றே உங்கள் நிதி நம்பிக்கையை உருவாக்குங்கள், BST உடன் சேர்ந்து!"
+            "உங்கள் இலக்கை அடைய, வாழ்க்கையில் வெற்றி பெற இன்றே உங்கள் BST உடன் இணைந்திடுங்கள்."
           </motion.p>
         </motion.div>
 
@@ -187,7 +187,7 @@ const Navbar = () => {
                   alt="Call Us"
                   className="inline-block w-6 h-6 mr-2"
                 />
-                <span className="font-bold">Call Us:</span>+91 97510 60940
+                <span className="font-bold">Call Us:</span> 63813 78187, 97510 60940
               </p>
               <a href="mailto:balasrithandayuthapanichit@gmail.com">
                 <p>
@@ -206,7 +206,7 @@ const Navbar = () => {
                   alt="Office Hours"
                   className="inline-block w-6 h-6 mr-2"
                 />
-                <span className="font-bold">Office Hours:</span> Mon-Fri 9:00
+                <span className="font-bold">Office Hours:</span> Mon-Sat 9:00
                 AM-6:00 PM
               </p>
             </div>

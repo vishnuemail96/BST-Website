@@ -33,10 +33,11 @@ const ContactUs = () => {
           <h3 className="text-xl font-bold text-gray-700 mb-4">
             Contact Details
           </h3>
+          <p className="text-gray-700 text-lg">Office Phone Number 1: +91 6381378187</p>
+          <p className="text-gray-700 text-lg">Office Phone Number 2: +91 9751060940</p>
           <p className="text-gray-700 text-lg">
             Email: balasrithandayuthapanichit@gmail.com
           </p>
-          <p className="text-gray-700 text-lg">Phone: +91 9751060940</p>
           <p className="text-gray-700 text-lg">
             Address:
             <p>Mahatma Gandhi Nagar,</p>
