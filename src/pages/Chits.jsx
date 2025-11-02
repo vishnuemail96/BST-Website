@@ -1,6 +1,6 @@
 // src/components/Chits.js
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
 const Chits = () => {
   const [isVisible] = useState(true); // Set to true to display content
@@ -208,7 +208,7 @@ const Chits = () => {
                 </ul>
               </ul>
             </motion.section>
-               {/* Terms and Conditions */}
+            {/* Terms and Conditions */}
             <motion.section
               initial="hidden"
               animate="visible"
@@ -250,7 +250,7 @@ const Chits = () => {
                   is made at the end of the slip with a 2.5%-5% charge.
                 </li>
                 <li>
-                  <strong>Chit Options:</strong> Offers include 10-month and
+                  <strong>Chit Options:</strong> Offers include 15-month and
                   20-month chits. Money can be collected daily, weekly, or
                   monthly.
                 </li>

@@ -239,7 +239,7 @@ const Home = () => {
             </div>
             <div className="md:ml-8 mt-4 md:mt-0">
               <p className="text-xl font-semibold text-violet-700">Sivamani</p>
-              <p className="text-sm font-semibold text-violet-700"> Founder of Gold Business</p>
+              <p className="text-sm font-semibold text-violet-700"> Founder of Nevy furnitures</p>
               <p> ⭐⭐⭐⭐⭐</p>
               <p className="text-gray-600 mt-2">
               Great returns and excellent customer service! BST Chit Funds truly cares about our family financial well-being.

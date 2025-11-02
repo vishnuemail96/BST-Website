@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="overflow-hidden relative">
             <div className="animate-marquee whitespace-nowrap space-x-4">
               <span className="inline-block">
-                Upcoming Chits: ₹20,00,000, ₹50,00,000 & ₹1,00,00,000
+                Upcoming Chits: ₹50,00,000 & ₹1,00,00,000
               </span>
             </div>
             <div className="animate-marquee whitespace-nowrap space-x-4">
@@ -107,7 +107,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="text-white mt-8 text-center">
-        <p>&copy; 2024 All Rights Reserved. Bala Sri Thandayuthapani Chits</p>
+        <p>&copy; 2025 All Rights Reserved. Bala Sri Thandayuthapani Chits</p>
       </div>
     </footer>
   );

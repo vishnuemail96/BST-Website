@@ -24,14 +24,6 @@ const Chitgroup = () => {
         animate="visible"
         variants={sectionVariants}
       >
-       {/* Another responsive iframe2 */}
-        <motion.iframe
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWZGHo_4FR7aQPLmlnHpTiCrBsg7HQm27aGOI6XQnWNKCR5AND3QNkX60hlEPJKXkXLF777OhljlqX/pubhtml?gid=597403153&amp;single=true&amp;widget=true&amp;headers=false"
-          className="w-full h-80 md:h-[50vh] lg:h-[75vh] rounded-md border border-gray-900"
-          style={{ border: "none" }}
-          title="Chit Fund Details 1"
-          variants={sectionVariants}
-        ></motion.iframe>
 
         {/* Another responsive iframe2 */}
         <motion.iframe
